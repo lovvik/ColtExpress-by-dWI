@@ -1,0 +1,101 @@
+{
+    "button" :
+    {
+        "colours" :
+        {
+            "normal_bg" : "#FFD898",
+            "hovered_bg" : "#FCC373",
+            "selected_bg" : "#FCC373",
+            "active_bg" : "#FCC373",
+            "disabled_bg":"#FF9C60",
+            "normal_text" : "#000000",
+            "hovered_text" : "#000000",
+            "selected_text" : "#000000",
+            "active_text" : "#000000",
+            "disabled_text" : "#FFD8BD"
+        },
+
+        "misc" :
+        {
+            "shape":"rounded_rectangle",
+            "shape_corner_radius":"5"
+        }
+    },
+
+    "drop_down_menu" : 
+    {
+        "misc":
+        {
+            "shape ": "rounded_rectangle",
+            "shape_corner_radius" : "5",
+            "expand_direction" : "down"
+        }
+    },
+    "label" :
+    {
+        "colours" : 
+        {
+            "dark_bg" : "#FFD898",
+            "normal_text" : "#000000"
+        }
+    },
+    "text_box" : 
+    {
+        "colours" : 
+        {
+            "normal_text" :"#000000",
+            "dark_bg" : "#FFD898"
+        },
+        "misc" : 
+        {
+            "shape" : "rounded_rectangle",
+            "shape_corner_radius" : "8"
+        },
+        "font" :
+        {
+            "name" : "Old",
+            "size" : "14",
+            "regular_path" : "../polices/Old.ttf"   
+        }
+    },
+    "text_box_vertical_scroll_bar.#top_button" : 
+    {
+        "shape" : "rounded_rectangle",
+        "shape_corner_radius" : "5"
+    },
+    "text_box_vertical_scroll_bar.#bottom_button" : 
+    {
+        "shape" : "rounded_rectangle",
+        "shape_corner_radius" : "5"
+    },
+    "text_box_vertical_scroll_bar.#sliding_button" : 
+    {
+        "shape" : "rounded_rectangle",
+        "shape_corner_radius" : "5"
+    },
+    "font" : 
+    {
+        "name": "fira_code", 
+        "point_size": "14", 
+        "style": "bold"
+    },
+    "text_entry_line" : 
+    {
+        "colours":
+        {
+            "dark_bg" :"#FFD898",
+            "selected_bg" :"#FCC373",
+            "normal_text" :"#000000",
+            "text_cursor" : "#000000",
+            "selected_text" : "#FFD898"
+        },
+        "font" :
+        {
+            "name" : "Old",
+            "size" : "16",
+            "regular_path" : "../polices/Old.ttf"   
+        }
+    }
+
+
+}
